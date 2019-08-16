@@ -5,7 +5,7 @@ public class Retragere extends ContBancar {
 
   public Retragere (int id, String descriere, String data, int suma, String category) {
 
-    super(id, descriere, data, suma);
+    super();
     this.category = category;
   }
 

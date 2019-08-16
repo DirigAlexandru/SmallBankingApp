@@ -28,7 +28,7 @@ public class Tests {
     }
 
     @Test
-    public void Test3PrintDepunere() {
+    public void Test3ToStringDepunere() {
         String data = new String();
         double suma = 0;
 
@@ -43,7 +43,7 @@ public class Tests {
     }
 
     @Test
-    public void Test4PrintRetragere() {
+    public void Test4ToStringRetragere() {
         contAlex.add(new Retragere(3, "cumparaturi la piata", "20190816", 20, "Groceries"));
         System.out.println(contAlex.toString());
         Assert.assertEquals("["+contAlex.get(0)+"]", contAlex.toString());
